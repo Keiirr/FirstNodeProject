@@ -7,8 +7,8 @@ router.get('/', function(req, res, next) {
     res.render('index', {layout: 'default', template: 'home-template'});
   });
 
-router.get('/test', (req, res) => {
-    res.render('test');
+router.get('/login', (req, res) => {
+    res.render('login');
 });
 
 router.get('/register', (req, res) => {
